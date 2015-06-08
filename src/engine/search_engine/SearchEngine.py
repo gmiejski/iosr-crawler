@@ -36,7 +36,7 @@ class SearchEngine(object):
         :return: list of queries for which search threshold was satisfied.
         """
 
-        content = split('\W*', content.lower())
+        content = split(r'\W*', content.lower())
         queries = set()
         for query in self.queries:
             keywords = self.db_engine.get_keywords(query)
