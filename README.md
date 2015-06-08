@@ -165,3 +165,25 @@ src/ui/views                               38     13    66%
 -----------------------------------------------------------
 TOTAL                                     294     46    84%
 </code></pre>
+
+##### Division of labor #####
+
+* Mateusz Radko
+    * technological research
+    * design and implementation of CrawlerEngine
+    * design and implementation of SearchEngine
+    * integration with continuous integration server 'Travis'
+    * implementation of SearchEngine unit tests
+* Grzegorz Miejski
+    * team lead
+    * technological research
+    * design and creation of project architecture
+    * integration with Riak database
+    * implementation of User Interface unit tests
+* Krzysztof Trzepla
+    * technological research
+    * implementation of keywords extractor prototypes
+    * design and implementation of NLPExtractor
+    * implementation of NLPExtractor unit tests
+    * creation of Django application skeleton
+    * documentation and integration with 'Read the Docs'
